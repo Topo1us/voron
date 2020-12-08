@@ -162,10 +162,9 @@ sa  - - afhe
             os.system(enter)
             print('\033[32m---------')
 #-5-inkor---
-        try:
-            enter()
-        except:
-            os.system(enter)
+    enter()
+#        except:
+#            os.system(enter)
 #try:
 a_1()
 #except:
