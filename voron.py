@@ -166,7 +166,8 @@ sa  - - afhe
 #        except:
 #            os.system(enter)
 #try:
-a_1()
+While True:
+    a_1()
 #except:
 #    print('ошибка 101.\nобратитесь к создателю.')
 #    renable=input('перезапустить voron?\n: ')
