@@ -162,7 +162,7 @@ sa  - - afhe
             except:
                 print('Ковальски, у нас ошибка.')
         else:
-            os.system(enter)
+            os.system('enter')
             print('\033[32m---------')
 #-5-inkor---
     while True:
