@@ -8,7 +8,7 @@ import argparse
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
 
 try:
-    from tools.crash import CriticalError
+#    from tools.crash import CriticalError
     import tools.addons.clean
     import tools.addons.logo
     import tools.addons.winpcap
