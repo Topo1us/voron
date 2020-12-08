@@ -166,7 +166,7 @@ sa  - - afhe
 #        except:
 #            os.system(enter)
 #try:
-While True:
+while True:
     a_1()
 #except:
 #    print('ошибка 101.\nобратитесь к создателю.')
