@@ -11,11 +11,12 @@ try:
 #    from tools.crash import CriticalError
     import tools.addons.clean
     import tools.addons.logo
-    import tools.addons.winpcap
+#    import tools.addons.winpcap
     from tools.method import AttackMethod
 except ImportError as err:
+    print("ошибка")
 #    CriticalError("ошибка импорта модулей", err)
-    sys.exit(1)
+#    sys.exit(1)
 
 # Parse args
 parser = argparse.ArgumentParser(description="Denial-of-service ToolKit")
