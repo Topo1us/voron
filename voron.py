@@ -167,15 +167,14 @@ sa  - - afhe
 #-5-inkor---
     while True:
         enter()
-try:
-    a_1()
-except:
-
-    print('ошибка 101.\nобратитесь к создателю.')
-    renable=input('перезапустить voron?\n: ')
-    renable=renable.lower()
-    if renable=='y' or renable=='yes' or renable=='д' or renable=='да':
-        a_1()
-    elif renable=='n' or renable=='no' or renable=='н' or renable=='нет':
-        print('voron закрыт.')
+#try:
+a_1()
+#except:
+#    print('ошибка 101.\nобратитесь к создателю.')
+#    renable=input('перезапустить voron?\n: ')
+#    renable=renable.lower()
+#    if renable=='y' or renable=='yes' or renable=='д' or renable=='да':
+#        a_1()
+#    elif renable=='n' or renable=='no' or renable=='н' or renable=='нет':
+#        print('voron закрыт.')
 
