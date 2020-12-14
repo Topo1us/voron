@@ -118,7 +118,7 @@ mb        - вес системы voron.''')
             try:
                 target=input('номер: ')
                 time_atack=input('время атаки в секундах: ')
-                os.system(r'python Impusle/impulse.py --method SMS --target '+str(target)+' --time '+str(time_atack)+' --threads 135')
+                os.system(r'python3 Impusle/impulse.py --method SMS --target '+str(target)+' --time '+str(time_atack)+' --threads 135')
             except:
                 print('Ковальски, у нас ошибка.')
         elif enter=='block_111' or enter=='progs':
